@@ -2,7 +2,9 @@
 
 ## Homework Week 3
 
-1. Create Node JS server that:
+Create Node JS server that:
+
+- Listens on port 8080
 
 - Responds to these endpoints:
 	- /todos/list
@@ -12,5 +14,7 @@
 	- /todos/remove
 		- remove a todo and return the new list
 	- /todos/reset
-		- clear all the todos from the ist
+		- clear all the todos from the list
+- Looks for the correct http method in the request
 
+A front-end html page that makes the correct calls and displays the results will be supplied. Don't edit the html page.
