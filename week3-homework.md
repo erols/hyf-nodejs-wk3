@@ -2,19 +2,23 @@
 
 ## Homework Week 3
 
-Create Node JS server that:
+### Create Node JS server that:
 
 - Listens on port 8080
 
 - Responds to these endpoints:
-	- /todos/list
+	- GET /todos/
 		- Returns list of todos
-	- /todos/add
+	- POST /todos/
 		- add a todo to the list and return the new list
-	- /todos/remove
+	- DELETE /todos/`<todo index>`
 		- remove a todo and return the new list
-	- /todos/reset
+	- DELETE /todos/
 		- clear all the todos from the list
-- Looks for the correct http method in the request
+### Notes:
 
-A front-end html page that makes the correct calls and displays the results will be supplied. Don't edit the html page.
+A front-end html page that makes the correct calls and displays the results is supplied. 
+
+Don't edit the html page. If you find en error in the page please let me know straight away so I can fix it for everyone.
+
+I have supplied a skeleton index.js that serves the home page at http://localhost:8080/. You can build on it or create your own.
